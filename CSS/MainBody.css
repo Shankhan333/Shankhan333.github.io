@@ -8,7 +8,7 @@ nav ul {
     width: 100%;
     height: 9vh;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     /* overflow: hidden; */
     /* background-color: aquamarine; */
@@ -22,46 +22,122 @@ nav ul p {
     margin: 0 0 0 2vw;
 }
 
-nav ul li{
+nav ul li {
     /* background-color: bisque; */
     width: 12vh;
     height: 9vh;
     display: flex;
     align-items: center;
-    justify-content:space-evenly;    
+    justify-content: space-evenly;
     list-style: none;
     /* margin: 0 1vw 0 0; */
 }
 
-nav ul i{
-    color: #fff; /*change the icon background color to white */
+nav ul i {
+    color: #fff;
+    /*change the icon background color to white */
 }
 
-nav ul i:hover{
+nav ul i:hover {
     color: #b4b4b4;
     cursor: pointer;
 }
 
 body {
     height: 100vh;
-    width: 97vw;
+    width: 100vw;
     margin-left: 2vw;
     padding-right: 2vw;
-    background: linear-gradient(to bottom, #070129, #000000);
+    width: 100vw;
+    height: 100vh;
+    background-image: url('IMG/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
-#name_style{
+#main-content {
+    height: 100vh;
+    overflow-y:scroll;
+    padding: 20px;
+    background-image: linear-gradient(from bottom,
+            rgb(0, 0, 0),
+            rgb(0, 0, 0),
+            rgb(0, 0, 0),
+            rgb(0, 0, 0),
+            rgb(0, 0, 0));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    /* overflow: hidden; */
+}
+
+#name_style {
     color: #fff;
-    font-size:5rem;
+    font-size: 5rem;
+    font-weight: 400;
     margin-left: 2vw;
-    margin-top: 30vh;
+    /* margin-top: 30vh; */
 }
 
 #Profession {
     font-size: 2rem;
-    margin-left: 2.8vw;
+    margin-left: 1.8vw;
     /* Blueish and white gradient text color */
-    background: linear-gradient(to left, #0f20d831, #0f7dd89a , #0fd8c760 , #0fd8ac62, #d80fbd69,#0fd1d863,#7ad80f62,#26c426b2,#0c0fbe);
+    background: linear-gradient(to left, #0f20d831, #0f7dd89a, #0fd8c760, #0fd8ac62, #d80fbd69, #0fd1d863, #7ad80f62, #26c426b2, #0c0fbe);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+#PersonalImage {
+    width: 500px;
+    height: 400px;
+    background-image: url('IMG/kevinRushProfile.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+}
+
+#AboutImage {
+    width: 500px;
+    height: 400px;
+    background-image: url('IMG/about.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+}
+
+#Description {
+    width: 35vw;
+    color: white;
+    display: flex;
+    justify-content: start;
+    margin-left: 2vw;
+    margin-top: 1vw;
+}
+
+#displayflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.About{
+    color: white;
+}
+
+.me{
+    color: rgb(0, 0, 0);
+    margin-left: 0.5vw;
+}
+
+#mainSection2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vh;
 }

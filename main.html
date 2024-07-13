@@ -1,32 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/MainBody.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <title>Home</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <p>H k</p>
-                <li><i class="fab fa-linkedin"></i>
-                <i class="fab fa-github"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-twitter"></i></li>
-            </ul>
-        </nav>
-    </header>
+    <style>
+        #mainSection {
+            /* background-color: bisque; */
+            width: 100%;
+            height: 91vh;
+            display: flex;
+            justify-content: center;
+            align-items: end;
 
-    <section>
-        <div id="name_style">
-            <p>Hamdan Khan</p>
+        }
+
+        #sec_1 {
+            /* background-color: aqua; */
+            height:50vh;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+            margin-bottom: 5vh;
+        }
+        
+        #sec_2 {
+            /* background-color: rgb(72, 255, 0); */
+            height: 50vh;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 5vh;
+        }
+    </style>
+    <title>Home</title>
+
+</head>
+
+<body>
+    <div id="main-content">
+        <header>
+            <nav>
+                <ul>
+                    <p>H k</p>
+                    <li><i class="fab fa-linkedin"></i>
+                        <i class="fab fa-github"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section id="mainSection">
+            <div id="sec_1">
+                <div id="name_style">
+                    <p>Hamdan Khan</p>
+                </div>
+                <div id="Profession">
+                    <p>Full Stack Developer</p>
+                </div>
+                <div id="Description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, quasi sapiente. Vitae labore
+                        laudantium exercitationem asperiores ipsam dicta corporis repellendus, ipsa deleniti iusto sit
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus dolorum incidunt consequuntur
+                        impedit at saepe cum, nesciunt cumque tempora culpa magni velit. Qui voluptate maxime tenetur velit
+                        facilis blanditiis cupiditate. <br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, distinctio? Saepe pariatur ipsa,
+                        rerum, quisquam voluptatum dignissimos non nesciunt officia excepturi sit est inventore nostrum
+                        eaque unde, reiciendis molestiae maiores?
+                        perferendis ad quasi tenetur nesciunt nihil. Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Dignissimos accusantium rem totam cupiditate aperiam fugiat neque esse sint quo, aspernatur
+                        voluptates? Laboriosam molestiae quae fuga, facere tempora illum nemo quod! </p>
+                </div>
+            </div>
+            <div id="sec_2">
+                <div id="PersonalImage"></div>
+            </div>
+        </section>
+    
+        <!-- About ME -->
+        <div id="displayflex">
+            <h2 class="About" id="displayflex">About </h2>
+            <h2 class="me" id="displayflex"> Me</h2>
         </div>
-        <div id="Profession">
-            <p>Full Stack Developer</p>
-        </div>
-    </section>
+        <section id="mainSection2">
+            <div id="sec_2">
+                <div id="AboutImage"></div>
+            </div>
+            <div id="sec_1">
+                <div id="Description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, quasi sapiente. Vitae labore
+                        laudantium exercitationem asperiores ipsam dicta corporis repellendus, ipsa deleniti iusto sit
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus dolorum incidunt consequuntur
+                        impedit at saepe cum, nesciunt cumque tempora culpa magni velit. Qui voluptate maxime tenetur velit
+                        facilis blanditiis cupiditate. <br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, distinctio? Saepe pariatur ipsa,
+                        rerum, quisquam voluptatum dignissimos non nesciunt officia excepturi sit est inventore nostrum
+                        eaque unde, reiciendis molestiae maiores?
+                        perferendis ad quasi tenetur nesciunt nihil. Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Dignissimos accusantium rem totam cupiditate aperiam fugiat neque esse sint quo, aspernatur
+                        voluptates? Laboriosam molestiae quae fuga, facere tempora illum nemo quod! </p>
+                </div>
+            </div>
+        </section>
+    </div>
 </body>
+
 </html>
