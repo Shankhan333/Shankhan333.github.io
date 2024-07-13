@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav ul {
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    /* overflow: hidden; */
+    /* background-color: aquamarine; */
+}
+
+nav ul p {
+    color: rgba(255, 255, 255, 0.822);
+    font-size: 3rem;
+    /* font-weight: bolder; */
+    text-decoration: none;
+    margin: 0 0 0 2vw;
+}
+
+nav ul li{
+    /* background-color: bisque; */
+    width: 12vh;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;    
+    list-style: none;
+    /* margin: 0 1vw 0 0; */
+}
+
+nav ul i{
+    color: #fff; /*change the icon background color to white */
+}
+
+nav ul i:hover{
+    color: #b4b4b4;
+    cursor: pointer;
+}
+
+body {
+    height: 100vh;
+    width: 97vw;
+    margin-left: 2vw;
+    padding-right: 2vw;
+    background: linear-gradient(to bottom, #070129, #000000);
+}
+
+#name_style{
+    color: #fff;
+    font-size:5rem;
+    margin-left: 2vw;
+    margin-top: 30vh;
+}
+
+#Profession {
+    font-size: 2rem;
+    margin-left: 2.8vw;
+    /* Blueish and white gradient text color */
+    background: linear-gradient(to left, #0f20d831, #0f7dd89a , #0fd8c760 , #0fd8ac62, #d80fbd69,#0fd1d863,#7ad80f62,#26c426b2,#0c0fbe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
