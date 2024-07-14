@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: white;
 }
 
 nav ul {
@@ -44,10 +45,11 @@ nav ul i:hover {
 }
 
 body {
-    height: 100vh;
+    height: fit-content;
     width: 100vw;
-    margin-left: 2vw;
-    padding-right: 2vw;
+    /* margin-left: 2vw;
+    padding-right: 2vw; */
+
     width: 100vw;
     height: 100vh;
     background-image: url('IMG/background.jpg');
@@ -55,18 +57,14 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 #main-content {
     height: 100vh;
-    overflow-y:scroll;
-    padding: 20px;
-    background-image: linear-gradient(from bottom,
-            rgb(0, 0, 0),
-            rgb(0, 0, 0),
-            rgb(0, 0, 0),
-            rgb(0, 0, 0),
-            rgb(0, 0, 0));
+    overflow-y: scroll;
+    background-image: linear-gradient(180deg, rgba(110, 110, 110, 0.74), rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.658));
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -74,18 +72,35 @@ body {
     /* overflow: hidden; */
 }
 
+#backgroundeffect {
+    height: 100vh;
+    overflow-y: scroll;
+    padding: 20px;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.733), rgba(44, 43, 43, 0), rgba(0, 0, 0, 0.733));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+}
+
 #name_style {
+    width:100%;
     color: #fff;
     font-size: 5rem;
     font-weight: 400;
     margin-left: 2vw;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    /* background-color: orangered; */
+    
     /* margin-top: 30vh; */
 }
 
 #Profession {
+    width:100%;
     font-size: 2rem;
     margin-left: 1.8vw;
-    /* Blueish and white gradient text color */
     background: linear-gradient(to left, #0f20d831, #0f7dd89a, #0fd8c760, #0fd8ac62, #d80fbd69, #0fd1d863, #7ad80f62, #26c426b2, #0c0fbe);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -94,7 +109,7 @@ body {
 #PersonalImage {
     width: 500px;
     height: 400px;
-    background-image: url('IMG/kevinRushProfile.png');
+    background-image: url('IMG/profilePic.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -112,32 +127,111 @@ body {
 }
 
 #Description {
-    width: 35vw;
+    width: 100%;
     color: white;
     display: flex;
-    justify-content: start;
+    /* background-color: aquamarine; */
     margin-left: 2vw;
     margin-top: 1vw;
 }
 
-#displayflex{
+#Description p {
+    width: 35vw;
+}
+
+.displayflex {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.About{
+.flexRow{
+    flex-direction: row;
+}
+
+.flexcolumn{
+    flex-direction: column;
+}
+
+.About {
     color: white;
 }
 
-.me{
-    color: rgb(0, 0, 0);
+.me {
+    color: rgb(54, 54, 54);
     margin-left: 0.5vw;
 }
 
-#mainSection2{
+#mainSection2 {
+    height: 85vh;
+    width: 80vw;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 8vh;
+}
+
+#mainsection3{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.techbox{
+    background-color: rgb(255, 30, 0);
+    width: 100vw;
+    height: 100vh;
+}
+
+#mainsection3 #displayflex h2{
+    width: 100%;
+    height: 10vh;
+    justify-content: center;
+    align-items:center ;
+    /* background-color: bisque; */
+}
+
+.tec_logoes{
+    width: 25vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rgb(0, 240, 248);    */
+}
+
+.Box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4vw;
+    height: 4vw;
+    /* background-color: rgb(105, 105, 105); */
+    border-radius: 0.3em;
+    border-style:double;
+    border-color: #fff;
+    font-size: 2.3rem;
+}
+
+.b1 i{
+    color: #0c0fbe;
+}
+
+.b2 i{
+    color: #7bff00;
+}
+
+.b3 i{
+    color: rgb(151, 68, 247);
+}
+
+.b4 i{
+    color: rgb(255, 0, 0);
+}
+
+.b5 i{
+    color: rgb(255, 251, 0);
 }
