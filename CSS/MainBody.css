@@ -1,3 +1,5 @@
+@import url('animations.css');
+
 * {
     padding: 0;
     margin: 0;
@@ -5,6 +7,22 @@
     color: white;
 }
 
+.displayflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexRow{
+    flex-direction: row;
+}
+
+.flexcolumn{
+    flex-direction: column;
+}
+
+
+/* ---------------------------Header--------------------------- */
 nav ul {
     width: 100%;
     height: 9vh;
@@ -44,6 +62,8 @@ nav ul i:hover {
     cursor: pointer;
 }
 
+
+/* ---------------------------BODY--------------------------- */
 body {
     height: fit-content;
     width: 100vw;
@@ -61,6 +81,7 @@ body {
     overflow-x: hidden;
 }
 
+/*---------------------------Gradient color on Body--------------------------- */
 #main-content {
     height: 100vh;
     overflow-y: scroll;
@@ -72,6 +93,7 @@ body {
     /* overflow: hidden; */
 }
 
+/* Effect on the background */
 #backgroundeffect {
     height: 100vh;
     overflow-y: scroll;
@@ -83,6 +105,7 @@ body {
     background-clip: border-box;
 }
 
+/* Body contents start from here */
 #name_style {
     width:100%;
     color: #fff;
@@ -92,9 +115,8 @@ body {
     display: flex;
     justify-content: start;
     align-items: start;
-    /* background-color: orangered; */
-    
-    /* margin-top: 30vh; */
+    animation: moveLeftToRight 1s linear;
+    animation-fill-mode: forwards;
 }
 
 #Profession {
@@ -104,6 +126,9 @@ body {
     background: linear-gradient(to left, #0f20d831, #0f7dd89a, #0fd8c760, #0fd8ac62, #d80fbd69, #0fd1d863, #7ad80f62, #26c426b2, #0c0fbe);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    animation: moveLeftToRight 1s linear;
+    animation-delay: 600ms;
+    animation-fill-mode: forwards;
 }
 
 #PersonalImage {
@@ -114,6 +139,9 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 25px;
+    animation: moveRightToLift 1s linear;
+    animation-fill-mode: forwards;
+    
 }
 
 #AboutImage {
@@ -124,34 +152,40 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 25px;
+    animation: moveLeftToRight 1s linear forwards;
 }
 
 #Description {
     width: 100%;
     color: white;
-    display: flex;
-    /* background-color: aquamarine; */
-    margin-left: 2vw;
     margin-top: 1vw;
 }
 
-#Description p {
+#Description p{
     width: 35vw;
+    margin-left: 2.5vw;
 }
 
-.displayflex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.DP_LTR_animation p{
+    animation: moveLeftToRight 1s linear forwards;
+    animation-delay: 1200ms;
 }
 
-.flexRow{
-    flex-direction: row;
+.positionOfSet p{
+    position: relative;
+    left: 10vw;
 }
 
-.flexcolumn{
-    flex-direction: column;
+.DP_RTL_animation p {
+    animation: moveRightToLift 1s linear forwards;
+
 }
+/* 
+.animate {
+    opacity: 1;
+} */
+
+
 
 .About {
     color: white;
@@ -171,8 +205,9 @@ body {
     margin-top: 8vh;
 }
 
+
+/* CSS for Technology text and its Logoes */
 #mainsection3{
-    /* background-color: aqua; */
     width: 100%;
     height: 30vh;
     display: flex;
@@ -212,13 +247,14 @@ body {
     /* background-color: rgb(105, 105, 105); */
     border-radius: 0.3em;
     border-style:double;
-    border-color: #fff;
+    border-color: #757575;
     font-size: 2.3rem;
 }
 
 .b1 i{
     color: #0c0fbe;
 }
+
 
 .b2 i{
     color: #7bff00;
@@ -235,3 +271,26 @@ body {
 .b5 i{
     color: rgb(255, 251, 0);
 }
+
+.b1{
+    animation: moveTopToDown 2s linear infinite;
+}
+
+.b2{
+    animation: moveTopToDown 2s linear infinite;
+    animation-delay: 1s;
+}
+.b3{
+    animation: moveTopToDown 2s linear infinite;
+}
+
+.b4{
+    animation: moveTopToDown 2s linear infinite;
+    animation-delay: 1s;
+}
+
+.b5{
+    animation: moveTopToDown 2s linear infinite;
+}
+
+
