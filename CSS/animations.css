@@ -2,9 +2,11 @@
     0% {
         transform: translateX(20vw);
     }
+
     50% {
         transform: translateX(10vw);
     }
+
     100% {
         transform: translateX(5vw);
     }
@@ -14,27 +16,33 @@
     0% {
         transform: translateX(0);
     }
+
     50% {
         transform: translateX(5%);
     }
+
     100% {
         transform: translateX(10%);
     }
 }
 
-@keyframes moveTopToDown{
+@keyframes moveTopToDown {
     0% {
         transform: translateY(0);
     }
-    25%{
+
+    25% {
         transform: translateY(5%);
     }
+
     50% {
         transform: translateY(0);
     }
-    75%{
+
+    75% {
         transform: translateY(-5%);
     }
+
     100% {
         transform: translateY(0);
     }
@@ -42,10 +50,25 @@
 
 .hidden {
     opacity: 0;
-    transition: opacity 1s;
+    transition: opacity 0.5s ease-out;
 }
 
 .visible {
     opacity: 1;
     animation: moveRightToLift 1s linear forwards;
+}
+
+.visible2 {
+    opacity: 1;
+    animation: moveLeftToRight 1s linear forwards;
+}
+
+.visible11 {
+    opacity: 1;
+    animation: moveRightToLift 3s linear forwards;
+}
+
+.visible22 {
+    opacity: 1;
+    animation: moveLeftToRight 3s linear forwards;
 }
