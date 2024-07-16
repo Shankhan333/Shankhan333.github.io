@@ -1,0 +1,14 @@
+[
+    {
+        "date": "January 2021 - Present",
+        "description": "Description of Project One impedit at saepe cum, nesciunt cumque tempora culpa magni velit. Qui voluptate maximeimpedit at saepe cum, nesciunt cumque tempora culpa magni velit. Qui voluptate maximeimpedit at saepe cum, nesciunt cumque tempora culpa magni velit. Qui voluptate maxime",
+        "level": "Senior Developer",
+        "technologies": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+        "date": "March 2020 - December 2020",
+        "description": "Description of Project Two impedit at saepe cum, nesciunt cumque tempora culpa magni velit. Qui voluptate maxime impedit at saepe cum, nesciunt cumque tempora culpa magni velit. Qui voluptate maxime impedit at saepe cum, nesciunt cumque tempora culpa magni velit. Qui voluptate maxime",
+        "level": "Junior Developer",
+        "technologies": ["React", "Node.js"]
+    }
+]

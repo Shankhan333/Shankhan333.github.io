@@ -1,0 +1,455 @@
+@import url('animations.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.displayflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alignitem{
+    align-items: start;
+}
+
+.alignitemend{
+    align-items: end;
+}
+
+.justifycontentstart{
+    justify-content: start;
+}
+
+.justifycontentend{
+    justify-content: end;
+}
+
+.flexRow{
+    flex-direction: row;
+}
+
+.flexcolumn{
+    flex-direction: column;
+}
+
+.width50{
+    width: 50%;
+}
+.width100{
+    width: 100%;
+}
+
+.height100{
+    height: 100%;
+}
+.height20{
+    height: 20%;
+}
+.paddingtop{
+    margin-top: 2vw;
+}
+
+.testcolor_1{
+    background-color: aqua;
+}
+.testcolor_2{
+    background-color: rgb(114, 190, 184);
+}
+.testcolor_3{
+    background-color: brown;
+}
+
+#mainSection {
+    /* background-color: #7ad80f62; */
+    width: 100%;
+    height: 91vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#sec_1 {
+    height: 50vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+    /* background-color: #7bff00; */
+}
+
+#sec_2 {
+    height: 50vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+
+
+/* ---------------------------Header--------------------------- */
+
+nav ul {
+    /* background-color: #0c0fbe; */
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul p {
+    color: rgba(255, 255, 255, 0.822);
+    font-size: 3rem;
+    text-decoration: none;
+    margin: 0 0 0 2vw;
+}
+
+nav ul li {
+    width: 14vw;
+    height: 9vh;
+    margin-right: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+nav ul i {
+    color: #fff;
+}
+
+nav ul i:hover {
+    color: #b4b4b4;
+    cursor: pointer;
+}
+
+
+/* ---------------------------BODY--------------------------- */
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('IMG/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+/*---------------------------Gradient color on Body--------------------------- */
+#main-content {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+    background-image: linear-gradient(180deg, rgba(110, 110, 110, 0.74), rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.658));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+}
+
+/* Effect on the background */
+#backgroundeffect {
+    height: 100vh;
+    width: 100vw;
+    overflow-y: scroll;
+    padding: 20px;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.733), rgba(44, 43, 43, 0), rgba(0, 0, 0, 0.733));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+}
+
+/* Body contents start from here */
+#name_style {
+    width:100%;
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 400;
+    margin-left: 2vw;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    animation: moveLeftToRight 1s linear;
+    animation-fill-mode: forwards;
+}
+
+#Profession {
+    width:100%;
+    font-size: 2rem;
+    margin-left: 1.8vw;
+    background: linear-gradient(to left, #0f20d831, #0f7dd89a, #0fd8c760, #0fd8ac62, #d80fbd69, #0fd1d863, #7ad80f62, #26c426b2, #0c0fbe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: moveLeftToRight 1s linear;
+    animation-delay: 400ms;
+    animation-fill-mode: forwards;
+}
+
+#PersonalImage {
+    width: 60%;
+    height: 110%;
+    background-image: url('IMG/profilePic.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    animation: moveRightToLift 1s linear;
+    animation-fill-mode: forwards;
+    
+}
+
+#AboutImage {
+    width: 60%;
+    height: 80%;
+    background-image: url('IMG/about.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+}
+
+#Description {
+    width: 100%;
+    color: white;
+    margin-top: 1vw;
+}
+
+#Description p{
+    width: 35vw;
+    margin-left: 2.5vw;
+    font-size: large;
+}
+
+.DP_LTR_animation p{
+    animation: moveLeftToRight 1s linear forwards;
+    animation-delay: 800ms;
+}
+
+.positionOfSet p{
+    position: relative;
+    right: 5vw;
+}
+
+.DP_RTL_animation p {
+    animation: moveRightToLift 1s linear forwards;
+    animation-delay: 200ms;
+}
+
+.About {
+    color: white;
+}
+
+.me {
+    color: rgb(54, 54, 54);
+    margin-left: 0.5vw;
+}
+
+#mainSection2 {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4vh;
+    margin-top: 4vh;
+    /* background-color: #0c0fbe; */
+}
+
+
+/* CSS for Technology text and its Logoes */
+#mainsection3{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #0c0fbe; */
+}
+
+.techbox{
+    /* background-color: rgb(27, 24, 23); */
+    width: 100vw;
+    height: 100%;
+}
+
+#mainsection3 #displayflex h2{
+    width: 100%;
+    height: 10vh;
+    justify-content: center;
+    align-items:center ;
+}
+
+.tec_logoes{
+    /* background-color: #7bff00; */
+    width: 30em;
+    height: 30em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 2em;
+    height: 2em;
+    border-radius: 0.3em;
+    border-style:double;
+    border-color: #757575;
+    font-size: 2.3rem;
+}
+
+.b1 i{
+    color: #0c0fbe;
+}
+
+
+.b2 i{
+    color: #7bff00;
+}
+
+.b3 i{
+    color: rgb(151, 68, 247);
+}
+
+.b4 i{
+    color: rgb(255, 0, 0);
+}
+
+.b5 i{
+    color: rgb(255, 251, 0);
+}
+
+.b1{
+    animation: moveTopToDown 2s linear infinite;
+}
+
+.b2{
+    animation: moveTopToDown 2s linear infinite;
+    animation-delay: 1s;
+}
+.b3{
+    animation: moveTopToDown 2s linear infinite;
+}
+
+.b4{
+    animation: moveTopToDown 2s linear infinite;
+    animation-delay: 1s;
+}
+
+.b5{
+    animation: moveTopToDown 2s linear infinite;
+}
+
+/*------------------------------ Experience section ------------------------------ */
+.experience{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+
+.leftcontainer{
+    align-items: center;
+}
+
+.project-date{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.padding2{
+    padding-left: 5%;
+}
+
+/*------------------------------ Project section ------------------------------ */
+.technologiesHeading{
+    padding-bottom: 8vw;
+    padding-top: 4vw;
+}
+
+/* Container for each project */
+#projectsSection{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.project {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.3vw;
+}
+
+.project-details {
+    width: 35vw;
+    font-size: 1rem;
+    padding-top: 5%;
+    animation-delay: 400ms;
+}
+
+.project-image {
+    width: 11em;
+    height: 11em;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 1em;
+}
+
+.project-name{
+    color: white;
+    font-size: larger;
+
+}
+
+.technologies-list {
+    list-style-type: none;
+    padding-bottom: 1em;
+
+}
+
+.technology-item {
+    color: #d6b6ff;
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+/* -------------------Get in touch---------------------- */
+
+#ContactMeSection{
+    margin-top:5%;
+}
+
+.Getintouch{
+    height: 20%;
+}
+
+.GetintouchContent{
+    height: 80%;
+}
+
+.GetintouchContent p{
+    margin-top: 0.5%;
+    font-size: medium;
+}

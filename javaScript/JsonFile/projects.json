@@ -1,0 +1,14 @@
+[
+    {   
+        "ImageName": "about.jpg",
+        "name": "Project 1",
+        "description": "Description of Project 1. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus dolorum incidunt Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus dolorum inciduntLorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus dolorum incidunt",
+        "technologies": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+        "ImageName": "about.jpg",
+        "name": "Project 2",
+        "description": "Description of Project 2. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus dolorum inciduntLorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus dolorum inciduntLorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus dolorum inciduntLorem ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus dolorum inciduntLorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus dolorum incidunt sit, amet consectetur adipisicing elit. Voluptatibus dolorum incidunt",
+        "technologies": ["React", "Node.js", "Express"]
+    }
+]

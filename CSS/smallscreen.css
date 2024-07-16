@@ -1,0 +1,156 @@
+@media(max-width : 690px) {
+
+    @keyframes moveRightToLift {
+        0% {
+            transform: translateX(20vw);
+        }
+    
+        50% {
+            transform: translateX(10vw);
+        }
+    
+        100% {
+            transform: translateX(0);
+        }
+    }
+    
+    @keyframes moveLeftToRight {
+        0% {
+            transform: translateX(0);
+        }
+    
+        50% {
+            transform: translateX(5%);
+        }
+    
+        100% {
+            transform: translateX(10%);
+        }
+    }
+
+    /* Header */
+    @media all and (-webkit-min-device-pixel-ratio:0) {
+        /* CSS styles for Chrome */
+        nav ul{
+            margin-top: 5vh;
+        }
+    }
+
+    nav ul p {
+        font-size: 2.2rem;
+        margin: 0 0 0 1vw;
+    }
+
+    nav ul li {
+        width: 34vw;
+    }
+
+    /* Name , Profession , Description and Profile Picture */
+    #mainSection{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: end;
+        height: fit-content;
+    }
+
+    #sec_1{
+        /* background-color: antiquewhite; */
+        width: 100%;
+        justify-content: start;
+        margin-bottom: 4vh;
+        height: fit-content;
+    }
+    
+    #sec_2{
+        /* background-color:aqua; */
+        width: 100%;
+        margin: 0;
+    }
+
+    #name_style{
+        font-size: 2.4rem;
+    }
+
+    #Profession{
+        font-size: 1.5rem;
+    }
+    
+    #Description p{
+        width: 80%;
+        font-size: small;
+    }
+
+    #PersonalImage{
+        width: 70%;
+        height: 70%;
+        position: relative;
+        left: 4%;
+    }
+
+
+    /* ABOUT section */
+    #mainSection2{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    #AboutImage{
+        width: 70%;
+        height: 70%;
+        position: relative;
+        right: 5%;
+    }
+
+    .positionOfSet p{
+        height: fit-content;
+        position: relative;
+        left: 10vw;    
+    }
+
+    /* Technologies */
+    .tec_logoes{
+        width: 100%;
+    }
+
+    .Box{
+        height: 7vh;
+        width: 14vw;
+    }
+
+    /* Experience Section */
+    .project-date{
+        font-size: 1em;
+    }
+    .project-details{
+        font-size: 0.8em;
+        /* background-color: antiquewhite; */
+        /* width: 0vw; */
+    }
+
+    .project-name{
+        font-size: 1em;
+    }
+
+    .technologies-list{
+        padding-bottom: 2em;
+    }
+
+    .technology-item{
+        font-size: 0.5em;
+    }
+    
+    /* Project Section */
+    .project-image{
+        width: 95%;
+        height: 95%;
+    }
+
+    /* Get in rouch */
+    .GetintouchContent{
+        font-size: larger;
+    }
+}
