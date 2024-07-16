@@ -1,9 +1,9 @@
 [
     {   
         "ImageName": "about.jpg",
-        "name": "Project 1",
-        "description": "Description of Project 1. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus dolorum incidunt Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus dolorum inciduntLorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus dolorum incidunt",
-        "technologies": ["HTML", "CSS", "JavaScript"]
+        "name": "Management System",
+        "description": "Developed using Flutter for Android, this comprehensive management system streamlines operations within a marble factory. The app leverages Google Drive as its database, seamlessly integrated with Google Cloud API, ensuring efficient data management and accessibility. Key features include inventory tracking, order management, and real-time data updates, all designed to enhance productivity and decision-making within the factory.",
+        "technologies": ["Flutter", "dart", "Google Sheet"]
     },
     {
         "ImageName": "about.jpg",

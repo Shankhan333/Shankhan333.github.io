@@ -340,6 +340,11 @@ body {
     color: rgb(255, 251, 0);
 }
 
+.b6 i{
+    color: rgb(204, 0, 255);
+}
+
+
 .b1{
     animation: moveTopToDown 2s linear infinite;
 }
@@ -361,13 +366,17 @@ body {
     animation: moveTopToDown 2s linear infinite;
 }
 
+.b6{
+    animation: moveTopToDown 2s linear infinite;
+    animation-delay: 1s;
+}
+
 /*------------------------------ Experience section ------------------------------ */
 .experience{
     display: flex;
     align-items: start;
     justify-content: center;
     padding-bottom: 2%;
-    
 }
 
 .leftcontainer{
