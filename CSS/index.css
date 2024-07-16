@@ -104,6 +104,8 @@ nav ul {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    /* position: fixed;
+    top: 0; */
 }
 
 nav ul p {
@@ -228,7 +230,13 @@ body {
 #Description p{
     width: 35vw;
     margin-left: 2.5vw;
-    font-size: large;
+    font-size: 1.4em;
+    line-height: 1.2em;
+    font-family: sans-serif;
+}
+
+#Description p br{
+    margin-bottom: 4em;
 }
 
 .DP_LTR_animation p{
@@ -359,6 +367,7 @@ body {
     align-items: start;
     justify-content: center;
     padding-bottom: 2%;
+    
 }
 
 .leftcontainer{

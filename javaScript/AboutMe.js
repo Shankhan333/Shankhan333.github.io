@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
     description.id = 'Description';
     description.classList.add('DP_RTL_animation', 'positionOfSet' , 'hidden');
     const paragraph = document.createElement('p');
-    paragraph.textContent = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, quasi sapiente. Vitae labore laudantium exercitationem asperiores ipsam dicta corporis repellendus, ipsa deleniti iusto sit Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus dolorum incidunt consequuntur impedit at saepe cum, nesciunt cumque tempora culpa magni velit. Qui voluptate maxime tenetur velit facilis blanditiis cupiditate. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, distinctio? Saepe pariatur ipsa, rerum, quisquam voluptatum dignissimos non nesciunt officia excepturi sit est inventore nostrum eaque unde, reiciendis molestiae maiores? perferendis ad quasi tenetur nesciunt nihil. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos accusantium rem totam cupiditate aperiam fugiat neque esse sint quo, aspernatur voluptates? Laboriosam molestiae quae fuga, facere tempora illum nemo quod!';
+    paragraph.innerHTML = 'With a passion for learning and innovation, I have been honing my skills in various frameworks and libraries. Currently, I am expanding my knowledge in backend development to further enhance my skill set. In my free time, I enjoy experimenting with new technologies and contributing to open-source projects.<br><br><b>"I believe that programming is not just a job, but a hobby that allows me to continually challenge myself and grow as a developer."</b>';
     description.appendChild(paragraph);
     sec_1.appendChild(description);
 
