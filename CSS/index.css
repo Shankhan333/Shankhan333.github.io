@@ -164,6 +164,9 @@ body {
 #backgroundeffect {
     height: 100vh;
     width: 100vw;
+    padding-top: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
     overflow-y: scroll;
     overflow-x: hidden;
     /* background-color: #ff2600; */
