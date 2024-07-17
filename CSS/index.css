@@ -222,6 +222,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 25px;
+    object-fit: cover;
 }
 
 #Description {

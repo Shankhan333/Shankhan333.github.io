@@ -9,9 +9,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const sec_2 = document.createElement('div');
     sec_2.id = 'sec_2';
     sec_2.classList.add('width50')
-    const aboutImage = document.createElement('div');
+    const aboutImage = document.createElement('img');
     aboutImage.id = 'AboutImage';
-    aboutImage.classList.add('hidden', 'ofsetRight');
+    aboutImage.src = 'CSS/IMG/about.png'; // Placeholder image
+    aboutImage.setAttribute('data-src', 'CSS/IMG/about.jpg'); // High-resolution image
+    aboutImage.alt = 'About Image';
+    aboutImage.classList.add('hidden', 'ofsetRight', 'lazyload');
+    aboutImage.loading = 'lazy';
     sec_2.appendChild(aboutImage);
 
     // Create the second div (sec_1) with the description

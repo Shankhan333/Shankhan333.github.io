@@ -87,8 +87,7 @@
         left: 4%;
         object-fit: cover;
     }
-
-
+    
     /* ABOUT section */
     #mainSection2 {
         width: 100%;
@@ -97,12 +96,13 @@
         flex-direction: column;
         margin: 0;
     }
-
+    
     #AboutImage {
         width: 70%;
         height: 70%;
         position: relative;
         right: 5%;
+        object-fit: cover;
     }
 
     .positionOfSet p {
@@ -159,3 +159,4 @@
     .bottompadding {
         padding-bottom: 8vh;
     }
+}
