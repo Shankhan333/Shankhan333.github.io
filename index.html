@@ -38,7 +38,8 @@
                     </div>
                     <div id="Description" class="DP_LTR_animation">
                         <p>
-                            My name is Shayan Khan, from khyber pakhtunkhwa, Pakistan. I completed my web development training
+                            My name is Shayan Khan, from khyber pakhtunkhwa, Pakistan. I completed my web development
+                            training
                             before 2022, specializing in creating interactive experiences and functional interfaces
                             using a range of front-end technologies, including HTML, CSS, and JavaScript, as well as PHP
                             and MySQL for back-end development.
@@ -51,7 +52,8 @@
                     </div>
                 </div>
                 <div id="sec_2">
-                    <div id="PersonalImage"></div>
+                    <img id="PersonalImage" src="CSS/IMG/profilePic.png" data-src="CSS/IMG/profilePic.jpg"
+                        loading="lazy">
                 </div>
             </section>
 
@@ -93,13 +95,25 @@
                 </div>
                 <div class="displayflex flexcolumn width100 GetintouchContent">
                     <p>Phone: +923499362994</p>
-                    <p>skgames20333@gmail.com</p>
+                    <p class="bottompadding">skgames20333@gmail.com</p>
                 </div>
             </footer>
         </div>
     </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const image = document.getElementById('PersonalImage');
+            const highResSrc = image.getAttribute('data-src');
+            const tempImg = new Image();
+            tempImg.src = highResSrc;
+            tempImg.onload = function () {
+                image.src = highResSrc;
+            };
+        });
+
+    </script>
     <script src="javaScript/AboutMe.js"></script>
-    <script src="javaScript/ExperienceContainer.js"></script>
+    <!-- <script src="javaScript/ExperienceContainer.js"></script> -->
     <script src="javaScript/ProjectContainer.js"></script>
 </body>
 

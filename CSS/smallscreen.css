@@ -4,25 +4,25 @@
         0% {
             transform: translateX(20vw);
         }
-    
+
         50% {
             transform: translateX(10vw);
         }
-    
+
         100% {
             transform: translateX(0);
         }
     }
-    
+
     @keyframes moveLeftToRight {
         0% {
             transform: translateX(0);
         }
-    
+
         50% {
             transform: translateX(5%);
         }
-    
+
         100% {
             transform: translateX(10%);
         }
@@ -45,7 +45,7 @@
     }
 
     /* Name , Profession , Description and Profile Picture */
-    #mainSection{
+    #mainSection {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
@@ -53,43 +53,44 @@
         height: fit-content;
     }
 
-    #sec_1{
+    #sec_1 {
         /* background-color: antiquewhite; */
         width: 100%;
         justify-content: start;
         margin-bottom: 4vh;
         height: fit-content;
     }
-    
-    #sec_2{
+
+    #sec_2 {
         /* background-color:aqua; */
         width: 100%;
         margin: 0;
     }
 
-    #name_style{
+    #name_style {
         font-size: 2.4rem;
     }
 
-    #Profession{
+    #Profession {
         font-size: 1.5rem;
     }
-    
-    #Description p{
+
+    #Description p {
         width: 80%;
         font-size: small;
     }
 
-    #PersonalImage{
+    #PersonalImage {
         width: 70%;
         height: 70%;
         position: relative;
         left: 4%;
+        object-fit: cover;
     }
 
 
     /* ABOUT section */
-    #mainSection2{
+    #mainSection2 {
         width: 100%;
         height: fit-content;
         display: flex;
@@ -97,60 +98,64 @@
         margin: 0;
     }
 
-    #AboutImage{
+    #AboutImage {
         width: 70%;
         height: 70%;
         position: relative;
         right: 5%;
     }
 
-    .positionOfSet p{
+    .positionOfSet p {
         height: fit-content;
         position: relative;
-        left: 10vw;    
+        left: 10vw;
     }
 
     /* Technologies */
-    .tec_logoes{
+    .tec_logoes {
         width: 100%;
     }
 
-    .Box{
+    .Box {
         height: 7vh;
         width: 14vw;
     }
 
     /* Experience Section */
-    .project-date{
+    .project-date {
         font-size: 1em;
     }
-    .project-details{
+
+    .project-details {
         font-size: 0.8em;
         /* background-color: antiquewhite; */
         /* width: 0vw; */
     }
 
-    .project-name{
+    .project-name {
         font-size: 1em;
     }
 
-    .technologies-list{
+    .technologies-list {
         padding-bottom: 2em;
     }
 
-    .technology-item{
+    .technology-item {
         font-size: 0.5em;
     }
-    
+
     /* Project Section */
-    .project-image{
+    .project-image {
         width: 95%;
         height: 95%;
     }
 
     /* Get in rouch */
-    .GetintouchContent{
+    .GetintouchContent {
         font-size: larger;
         padding-bottom: 2vh;
     }
-}
+
+    .bottompadding {
+        padding-bottom: 8vh;
+    }

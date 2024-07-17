@@ -210,6 +210,7 @@ body {
     border-radius: 25px;
     animation: moveRightToLift 1s linear;
     animation-fill-mode: forwards;
+    object-fit: cover;
     
 }
 
@@ -426,8 +427,8 @@ body {
 }
 
 .project-image {
-    width: 11em;
-    height: 11em;
+    width: 30%;
+    height: 90%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
